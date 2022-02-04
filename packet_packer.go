@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/phuslu/quic-go/ackhandler"
-	"github.com/phuslu/quic-go/internal/handshake"
-	"github.com/phuslu/quic-go/internal/protocol"
-	"github.com/phuslu/quic-go/internal/wire"
+	"github.com/gpfnw/quic-go/ackhandler"
+	"github.com/gpfnw/quic-go/internal/handshake"
+	"github.com/gpfnw/quic-go/internal/protocol"
+	"github.com/gpfnw/quic-go/internal/wire"
 )
 
 type packedPacket struct {
