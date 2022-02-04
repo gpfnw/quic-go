@@ -4,9 +4,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/phuslu/quic-go/internal/crypto"
-	"github.com/phuslu/quic-go/internal/protocol"
-	"github.com/phuslu/quic-go/internal/utils"
+	"github.com/gpfnw/quic-go/internal/crypto"
+	"github.com/gpfnw/quic-go/internal/protocol"
+	"github.com/gpfnw/quic-go/internal/utils"
 )
 
 var (
