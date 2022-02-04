@@ -3,7 +3,7 @@ package wire
 import (
 	"bytes"
 
-	"github.com/phuslu/quic-go/internal/protocol"
+	"github.com/gpfnw/quic-go/internal/protocol"
 )
 
 // A Frame in QUIC
