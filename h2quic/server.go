@@ -12,10 +12,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	quic "github.com/phuslu/quic-go"
-	"github.com/phuslu/quic-go/internal/protocol"
-	"github.com/phuslu/quic-go/internal/utils"
-	"github.com/phuslu/quic-go/qerr"
+	quic "github.com/gpfnw/quic-go"
+	"github.com/gpfnw/quic-go/internal/protocol"
+	"github.com/gpfnw/quic-go/internal/utils"
+	"github.com/gpfnw/quic-go/qerr"
 	"golang.org/x/net/http2"
 	"golang.org/x/net/http2/hpack"
 )
